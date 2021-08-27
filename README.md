@@ -8,6 +8,8 @@ npm install
 
 Principais comandos:
 ionic serve
+ionic g page login
+ionic g provider autenticacao
 
 Geração de imagens aleatorias
 https://picsum.photos/200/300

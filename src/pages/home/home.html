@@ -6,7 +6,7 @@
 
 <ion-content padding>
   
-  <ion-card *ngFor="let item of items">
+  <ion-card *ngFor="let item of items" (click)="detalhar(item)">
 
     <ion-item>
       <ion-avatar item-start>

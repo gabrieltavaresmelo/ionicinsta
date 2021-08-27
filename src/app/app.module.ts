@@ -13,6 +13,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { CameraPage } from '../pages/camera/camera';
 import { UsuarioProvider } from '../providers/usuario/usuario';
 import { HttpClientModule } from '@angular/common/http';
+import { AutenticacaoProvider } from '../providers/autenticacao/autenticacao';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { HttpClientModule } from '@angular/common/http';
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    UsuarioProvider
+    UsuarioProvider,
+    AutenticacaoProvider
   ]
 })
 export class AppModule {}
